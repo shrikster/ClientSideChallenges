@@ -1,0 +1,19 @@
+
+First Challenge : Async operations (jQuery and optionally Node.js) - the answer is at 
+Client side -> Server/Public/index.html,Server/Public/challenge.js
+Server side -> Server/main.js
+Instructions:
+
+· Web page that clicking 'start' will perform Ajax requests one after the other (sequentially)
+· Update on the progress on screen at the end submit all results (which operation succeeded and which failed) via Ajax.
+· The requests can be user_index (0 to 100) and the response tells whether he is online or not. 
+· Make the server side to return random 50/50% to be online or not.
+·The Ajax server can be written in a language of your choice, though if you know Node.js, it would be better.
+
+
+Second Challenge : Fix up Jeditable plugin http://www.appelsiini.net/projects/jeditable (jQuery)
+Client side -> Server/Public/index2.html,Server/Public/challenge2.js
+
+·Fix up jeditable plugin (either externally, or by modifing its source code) 
+·When clicking outside of the area, or clicking ESC, or anything that causes you to leave the field, if the text is modified, then ask the user whether you want to             discard changes or continue editing.
+·In the popup of "discard changes" or "continue editing", if the user presses outside the popup box, or ESC, it will be equal as if he clicked "continue editing".
