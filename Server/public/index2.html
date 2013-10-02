@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script>
+		<script src=//code.jquery.com/ui/1.10.3/jquery-ui.js></script>
+		<script src=//www.appelsiini.net/download/jquery.jeditable.mini.js></script>
+		<script src=challenge2.js></script>
+
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+	</head>
+	<body >
+		<div class="edit" id="div_1">Lorem ipsum dolor sit amet</div>
+		<div id="dialog-confirm" title="Discard all changes?">
+		  <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>All your changes will be disacred Are you sure?</p>
+		</div>
+		 
+		<script>
+		$(function() 
+		{
+	 		//$('.edit').editable('/save',{onreset:function(){console.log('on reset!!');return false;}}); //keep this line so i test if didn't broke any functinality ..
+	 		$('.edit').editable('/save')//set up
+		});
+		</script>
+	</body>
+</html>
