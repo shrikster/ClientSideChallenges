@@ -1,3 +1,14 @@
+Run:
+git clone git://github.com/shrikster/ClientSideChallenges.git ClientSideChallenges
+cd ClientSideChallenges/Server
+node main.js
+
+Browse to:
+First challenge
+http://localhost:3000/index.html
+Second challenge
+http://localhost:3000/index2.html
+
 
 First Challenge : Async operations (jQuery and optionally Node.js) - the answer is at 
 Client side -> Server/Public/index.html,Server/Public/challenge.js
